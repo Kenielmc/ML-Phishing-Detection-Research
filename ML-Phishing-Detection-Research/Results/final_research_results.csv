@@ -1,0 +1,13 @@
+Experiment,Model,Accuracy,Precision,Recall,F1 Score,Balanced Accuracy,False Positive Rate
+Baseline,Random Forest,96.93,95.53,95.69,95.61,96.64,2.41
+Baseline,Gradient Boosting,96.65,95.27,95.13,95.2,96.3,2.54
+Robustness,Random Forest,96.39,95.21,94.44,94.82,95.94,2.56
+Robustness,Gradient Boosting,71.5,99.47,18.59,31.33,59.27,0.05
+Generalization,Random Forest,87.06,90.89,88.08,89.46,86.72,14.64
+Generalization,Gradient Boosting,85.36,92.87,82.9,87.6,86.17,10.56
+Augmentation - Normal,Random Forest,97.14,95.87,95.95,95.91,96.86,2.22
+Augmentation - Normal,Gradient Boosting,96.59,95.07,95.18,95.12,96.26,2.65
+Augmentation - Modified,Random Forest,97.14,95.69,96.15,95.92,96.91,2.33
+Augmentation - Modified,Gradient Boosting,96.58,95.08,95.15,95.12,96.25,2.64
+Feature Removal,Random Forest,97.1,95.64,96.08,95.86,96.86,2.35
+Feature Removal,Gradient Boosting,96.62,95.02,95.33,95.17,96.32,2.69
